@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f7f65b396d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/vd.png" class="logo">
+                <ul id="sidemenu">
+                    <li> <a href="#header">Home</a></li>
+                    <li> <a href="#about">About</a></li>
+                    <li> <a href="#Services">Services</a></li>
+                    <li> <a href="#portfolio">Portfolio</a></li>
+                    <li> <a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1 class="slide-left">Hello, <br>I'm <span class="slide-left">Viruna</span> Desitha </h1>
+                <h2 class="slide-left">Software Engineer Undergraduate</h2>
+            </div>
+        </div>
+    </div>
+   <!--------------------about -------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/80.jpg" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title" >About Me</h1>
+                    <p>I’m an undergraduate Software Engineering student at the Informatics
+                        Institute of Technology who is working hard to achieve personal goals.
+                        My passion is learning new IT technologies and I'm looking for an
+                        internship to develop professional experience and expertise.</p>
+
+                         <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('projects')">Projects</p>
+                            <p class="tab-links " onclick="opentab('skills')">Skills</p> 
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                         </div>
+                         <div class="tab-contents " id="skills">
+                            <ul>
+                                <li><span>SKILLS<br></span><br>React Native
+                                    <br>React.js
+                                    <br>HTML
+                                    <br>CSS
+                                    <br>Java
+                                    <br>Python
+                                    <br>PHP
+                                    <br>MYSQL
+                                    <br>Figma<br></li>
+                                <li><span>SOFT SKILLS<br></span><br>Self Learning Ability
+                                    <br>Self Learning Ability
+                                    <br>Teamwork
+                                    <br>Time Management
+                                    <br>Communication Skills
+                                    <br>Leadership
+                                    <br>Creativity</li>
+                            
+                            </ul>
+                         </div>
+                         <div class="tab-contents active-tab" id="projects">
+                            <ul>
+                                <li><span> Skin Disease Identification Application - Group Project</span><br>Developing a Skin Disease Identification App, utilizing Node.js Express.js for backend
+                                    functionality and React Native for the responsive frontend, to provide users with a seamless and
+                                    accurate tool for self-assessment of skin conditions
+                                    </li>
+                                <li><span>Entertainment website( HTML,CSS,JavaScript )</span><br>Designed and developed a responsive entertainment website with a gallery, online shop, query
+                                    form, and interactive quizzes. Implemented using HTML, CSS, and JavaScript, with CI/CD
+                                    integration through GitHub Actions</li>
+                                <li><span> Online Shopping Management System ( Java )</span><br>Created and implemented a Java-based shopping managing system, and the system features a
+                                    robust console menu, allowing the manager to perform actions such as adding/deleting
+                                    products, listing items alphabetically, and saving/retrieving data from a file. Additionally, GUI
+                                    enhances the user experience, enabling clients to visualize, sort, and add products to a
+                                    shopping cart.</li>
+                                <li><span>Seat booking system for movie theater(Java)</span><br>Designed and developed a Java-based movie theater management system, successfully
+                                    automating ticket reservations, showtime management, and improving overall customer
+                                    experience.</li>
+                                <li><span> Mark Prediction Software ( Python )</span><br>Created mark prediction software for student to inform their grades by using Python.</li>
+                            </ul>
+                         </div>
+                         <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>(2022- Up to this)</span><br>Informatics Institute of Technology, Sri Lanka (IIT)
+                                    Higher Education 
+                                    BEng Software Engineering
+                                    </li>
+                                    <li><span>GCE Advanced Level Examination (2021)
+                                    </span><br>physical Science Stream<br>
+                                    Mahinda College - Galle</li>
+                                    <li><span>GCE Ordinary Level Examination (2018 )
+                                    </span><br> Mahinda College - Galle</li>
+                                
+                                
+                            </ul>
+                         </div>
+                </div>
+            </div>
+       </div>
+ </div>
+ <!-------------------services---------------------------------->
+ <div id="Services">
+    <div class="container">
+        <h1 class="sub-title" >My Services</h1>
+        <div class="services-list">
+           <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Development</h2>
+            <p>I build websites using React, HTML, CSS, and JavaScript, ensuring they work well on all devices. With experience in Node.js, Express, MongoDB, and Firebase,
+                 I make sure websites are functional and scalable for businesses.</p>
+               <a href="#">Learn more</a>
+           </div>
+           <div>
+            <i class="fa-solid fa-crop-simple"></i>
+            <h2>UI/UX Design</h2>
+            <p>I design interfaces that are easy to use and look great, using tools like Figma to create prototypes.
+                 My focus is on making sure websites and apps are enjoyable and straightforward for people to use.</p>
+               <a href="#">Learn more</a>
+           </div> 
+           <div>
+            <i class="fa-brands fa-app-store"></i>
+            <h2>App Development</h2>
+            <p>I create mobile apps using React Native, making them work on both Android and iOS devices. 
+                From start to finish, I make sure the apps I build are user-friendly and work smoothly for everyone.</p>
+               <a href="#">Learn more</a>
+           </div> 
+        </div>
+
+    </div>
+ </div>
+ <!---------------------portfolio-------------------->
+ <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title" >My Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/888.png">
+                <div class="layer">
+                    <h3>Netflix Clone Website</h3>
+                    <p> Netflix clone website built using React and Firebase. This app allows users to sign in, browse upcoming movies, popular picks, and blockbusters, 
+                        and watch trailers by simply clicking on thumbnail images.</p>
+                        <a href="https://github.com/Virunadesitha/Netflix_clone"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/po.png">
+                <div class="layer">
+                    <h3>Entertainment website</h3>
+                    <p> The entertainment website featuring a gallery, online shop, query form, and interactive quizzes. This dynamic site, crafted with HTML, CSS, and JavaScript, offers users a vibrant and engaging experience. </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+            </div>
+            <div class="work">
+                <img src="images/download.png">
+                <div class="layer">
+                    <h3>Skin Sense</h3>
+                    <p> 
+                        Skin Sense, a groundbreaking skin disease identification app designed to enhance user well-being. With Skin Sense, users can stay informed by updating their daily location temperature and UV index count. By effortlessly uploading photos of skin conditions,
+                         they receive instant disease identification along with nearby medical center recommendations. Additionally, users can provide valuable feedback to continually improve the app's functionality.</p>
+                        <a href="https://github.com/kumuuuu/SDGP"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+            </div>
+
+        </div>
+        <a href="#" class="btn">See more</a>
+
+    </div>
+ </div>
+ <!-----------------contact------------------------->
+ <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-sharp fa-solid fa-paper-plane"></i> virunadesitha2002@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> +94 775257957</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/viruna_desitha"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/viru.?igsh=MXcwdXhnNTQ1cndrbA%3D%3D&utm_source=qr"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/viruna-abeywickrama-9b8517260/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/Viruna Desitha  cv.pdf" download  class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+             <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Email" required>
+                <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+             </form>
+             <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright &#169 </i> Viruna.Made with <i class="fa-solid fa-heart"></i> by Viruna Desitha</p>
+    </div>
+ </div>
+
+ <script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+
+    }
+
+ </script>
+
+ <script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right ="0";
+    }
+    function closemenu(){
+        sidemenu.style.right ="-200px";
+    }
+ </script>
+ <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzw1Ic6B24QIj8xVmYUyQwIE1uIwn1n3tVj9ZLtneCx0AgrKULvFt9r9mIpE7dSeyFZ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML ="Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+    
+</body>
+</html>
